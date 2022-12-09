@@ -1,0 +1,17 @@
+<header class="header__container">
+  <div class="header__contain">
+    <p class="header__logo" [routerLink]="['']">Metal<span>Dev</span></p>
+
+    <nav>
+      <ul class="header__menu">
+        <li
+          class="header__menu--item"
+          *ngFor="let item of templateMenu"
+          [routerLink]="item.rute"
+        >
+          {{ item.label }}
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>

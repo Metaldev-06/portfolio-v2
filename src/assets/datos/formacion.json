@@ -1,0 +1,38 @@
+[
+    {
+        "status": "Lic.En Sistemas de Información", 
+        "date": "05/03/2020 - 01/03/2022", 
+        "icon": "pi pi-shopping-cart", 
+        "color": "#9C27B0", 
+        "image": "/assets/img/ucp.png",
+        "description": "Estudié hasta 3ro en la Universidad de la Cuenca del Plata",
+        "url": "https://www.ucp.edu.ar/"
+    },
+    {
+        "status": "Técnico Superior en Programación", 
+        "date": "01/03/2022 - 01/01/2023", 
+        "icon": "PrimeIcons.SHOPPING_CART", 
+        "color": "#9C27B0", 
+        "image": "/assets/img/teclab.png",
+        "description":"Actualmente cursando esta técnicatura en el Instituto Superior, TECLAB. En este momento con el título intermedio de auxiliar en programación",
+        "url": "https://www.teclab.edu.ar/"
+    },
+    {
+        "status": "Programación Web Full Stack", 
+        "date": "16/07/2022 - 16/07/2023", 
+        "icon": "PrimeIcons.SHOPPING_CART", 
+        "color": "#9C27B0", 
+        "image": "/assets/img/nucba.png",
+        "description":"NUCBA es un bootcamp fullstack, en el que me interesó el stack que se enfocan, para poder expandir mis horizontes y aprender un poco más",
+        "url": "https://www.nucba.com.ar/codingbootcamp"
+    },
+    {
+        "status": "Oracle Next - Formación en UX Design", 
+        "date": "16/04/2022 - 26/01/2023", 
+        "icon": "PrimeIcons.SHOPPING_CART", 
+        "color": "#9C27B0", 
+        "image": "/assets/img/alura.svg",
+        "description":"El bootcamp de Oracle al igual que NUCBA, es sobre fullstack pero enfocandose en un lenguaje de programación más robusto, como lo es Java",
+        "url": "https://www.oracle.com/lad/education/oracle-next-education/"
+    }
+]

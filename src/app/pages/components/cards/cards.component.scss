@@ -1,0 +1,33 @@
+@import "../../../../styles.scss";
+.template__card {
+    width: 220px;
+    height: 330px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding: 15px;
+    background-color: $color-card;
+    transition: all .3s;
+}
+.template__card:hover {
+    transform: scale(1.1);
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px;
+}
+.template__card--img {
+    width: 100px;
+    height: 100px;
+}
+.template__card--img img{
+    width: 100%;
+}
+.template__card--content_title {
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+.template__card--content_description {
+    color: $color-text-secondary;
+    font-size: .9rem;
+}

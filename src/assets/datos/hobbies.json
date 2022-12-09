@@ -1,0 +1,34 @@
+[
+
+    {
+        "img": "/assets/img/juego.svg",
+        "title": "Jugar Videojuegos",
+        "description":
+        "Me gusta jugar videojuegos en mis tiempos libres, para poder relajarme y desconectarme de la rutina diaria."
+    },
+    {
+        "img": "/assets/img/musica.svg",
+        "title": "Escuchar Música",
+        "description":
+        "Siempre que estudio, juego o programo me gusta escuchar música"
+    },
+    {
+        "img": "/assets/img/tv.svg",
+        "title": "Ver Series",
+        "description":
+            "Los fines de semanas o antes de dormir me gusta ver unos capítulos de mis series favoritas"
+    },
+    {
+        "img": "/assets/img/programacion.svg",
+        "title": "Programar",
+        "description":
+        "Básicamente es lo que hago en la totalidad del día, programar y aprender nuevas tecnologías"
+    },
+    {
+        "img": "/assets/img/libro.svg",
+        "title": "Leer Libros",
+        "description":
+        "Aunque ahora es menos frecuente que antes, de vez en cuando me gusta leer un buen libro"
+    }
+        
+]

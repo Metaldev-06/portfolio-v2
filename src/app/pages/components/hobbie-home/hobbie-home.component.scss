@@ -1,0 +1,22 @@
+@import "../../../../styles.scss";
+
+.hobbies__container {
+    width: 100%;
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    .title {
+        align-self: flex-start;
+    }
+    .card__container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 2.8rem;
+    }
+}

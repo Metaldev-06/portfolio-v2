@@ -1,1 +1,69 @@
 /* You can add global styles to this file, and also import other style files */
+$background-color: #131415;
+$color-primary: #FF00B4;
+$color-secondary: #4351FF;
+$color-text: #FFFFFF;
+$color-text-secondary: #989898;
+$color-shadow: rgba(1, 2, 7, 0.5);
+$color-card: #252525;
+$color-gradient: linear-gradient(to top, #504DF9 0%, #E80397 61%);
+$color-gradient-button: linear-gradient(to top right, #504DF9 0%, #E80397 61%);
+
+
+
+$breakpoints: (
+    mobile : 480px,
+    tablet : 768px,
+    screen : 1024px,
+    desktop : 1200px,
+);
+
+
+@mixin media-up($breakpoint) {
+    @media screen and (max-width: map-get($breakpoints, $breakpoint)) {
+        @content;
+    }
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 12vh;
+}
+body {
+    font-family: 'Raleway', sans-serif;
+    color: var(--color-text);
+    background-color: $background-color;
+    color: $color-text;
+}
+body::-webkit-scrollbar {
+    width: 12px;
+}
+  
+body::-webkit-scrollbar-track {
+    background: var(--color-background);
+}
+  
+body::-webkit-scrollbar-thumb {
+    background: var(--color-gradient);
+    border-radius: 20px;
+    border: 3px solid var(--color-background);
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: 900;
+    background: #FD0048;
+    background: $color-gradient-button;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    user-select: none; 
+}

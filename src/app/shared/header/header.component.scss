@@ -1,0 +1,77 @@
+@import "../../../styles.scss";
+
+.header__container {
+    width: 100%;
+    height: 100%;
+    height: 12vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.header__contain {
+    width: 100%;
+    height: 100%;
+    max-width: 1200px;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+}
+.header__logo {
+    font-size: 2em;
+    transition: transform .3s;
+    cursor: pointer;
+}
+.header__logo:hover {
+    transform: scale(1.1);
+}
+.header__logo span {
+    background: #FD0048;
+    background: linear-gradient(to bottom, #FD0048 0%, #FF00B4 95%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.header__menu {
+    display: flex;
+    gap: 1rem;
+
+}
+.header__menu--item {
+    cursor: pointer;
+    position: relative;
+    border: none;
+    background: none;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: color;
+    font-size: 1.2em;
+    @include media-up(mobile){
+        font-size: 1em;
+    }
+}
+.header__menu--item:focus,
+.header__menu--item:hover {
+  color: #fff;
+}
+
+.header__menu--item:focus:after,
+.header__menu--item:hover:after {
+  width: 100%;
+  left: 0%;
+}
+.header__menu--item:after {
+    content: "";
+    pointer-events: none;
+    bottom: -2px;
+    left: 50%;
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background: $color-gradient-button;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: width, left;
+}

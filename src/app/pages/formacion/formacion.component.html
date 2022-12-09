@@ -1,0 +1,42 @@
+<section class="formacion__container">
+  <div class="card">
+    <h1 class="title">Formación</h1>
+    <p-timeline
+      [value]="events1"
+      align="alternate"
+      styleClass="customized-timeline"
+    >
+      <ng-template pTemplate="marker" let-event>
+        <span
+          class="custom-marker shadow-2"
+          [style.backgroundColor]="event.color"
+        >
+          <i [ngClass]="event.icon"></i>
+        </span>
+      </ng-template>
+      <ng-template pTemplate="content" let-event>
+        <p-card [header]="event.status" [subheader]="event.date">
+          <img
+            *ngIf="event.image"
+            [src]="event.image"
+            [alt]="event.name"
+            width="200"
+            class="shadow-2"
+            style="margin-bottom: 1rem"
+          />
+          <p>
+            {{ event.description }}
+          </p>
+          <a
+            pButton
+            label="Read more"
+            class="p-button-text"
+            style="margin-top: 1rem; padding: 1rem"
+            [href]="event.url"
+            target="_blank"
+          ></a>
+        </p-card>
+      </ng-template>
+    </p-timeline>
+  </div>
+</section>

@@ -1,0 +1,12 @@
+@import "../../../styles.scss";
+
+.hero__container {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.sobreMi__container, .skills__containera, .hobbies__containera {
+    width: 90%;
+    max-width: 1300px;
+    margin: 5rem auto;
+}

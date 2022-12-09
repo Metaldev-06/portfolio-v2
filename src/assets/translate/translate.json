@@ -1,0 +1,34 @@
+{
+    "es":{
+        "header": {
+            "skills": "Skills",
+            "hobbies": "Hobbies",
+            "formacion": "Formación",
+            "proyectos": "Proyectos"
+        },
+        "hero": {
+            "title": "Fernando Diaz",
+            "subtitle": "Desarrollador Web",
+            "btnHero": {
+                "verCv": "Ver CV",
+                "descargarCV": "Descargar CV"
+            }
+        }
+    },
+    "en": {
+        "header": {
+            "skills": "Skills",
+            "hobbies": "Hobbies",
+            "formacion": "Training",
+            "proyectos": "Projects"
+        },
+        "hero": {
+            "title": "Fernando Diaz",
+            "subtitle": "Web Developer",
+            "btnHero": {
+                "verCv": "View CV",
+                "descargarCV": "Download CV"
+            }
+        }
+    }
+}
