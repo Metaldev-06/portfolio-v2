@@ -6,7 +6,6 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppComponent } from './app.component';
 
 import { HeaderComponent } from './shared/header/header.component';
-import { RepoUrlPipe } from './pipes/repo-url.pipe';
 import { FooterComponent } from './shared/footer/footer.component';
 
 @NgModule({

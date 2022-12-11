@@ -7,7 +7,8 @@
     display: flex;
     justify-content: space-around;
     margin-top: 2rem;
-    @include media-up(mobile){
+    gap: 1rem;
+    @include media-up(tablet){
         flex-direction: column;
     }
 }
@@ -18,6 +19,9 @@
     @include media-up(mobile){
         margin-bottom: 2rem;
     }
+    @include media-up(tablet){
+        max-width: 100%;
+    }
 }
 .contact__form--img img{
     width: 100%;
@@ -27,6 +31,9 @@
     width: 100%;
     max-width: 600px;
     min-width: 300px;
+    @include media-up(tablet){
+        max-width: 100%;
+    }
 }
 .contact__form--content p {
     margin-bottom: 2rem;

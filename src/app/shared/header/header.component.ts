@@ -41,7 +41,6 @@ export class HeaderComponent {
     } else {
       this.headerFixed = false
     }
-    console.log(window.scrollY);
   }
 
 }

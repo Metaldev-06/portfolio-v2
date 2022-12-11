@@ -42,7 +42,7 @@
         align-items: center;
         font-size: 4em;
         
-        @include media-up(mobile){
+        @include media-up(tablet){
             font-size: 2em;
         }
         h1 {
