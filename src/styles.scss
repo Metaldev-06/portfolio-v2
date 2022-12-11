@@ -35,13 +35,15 @@ $breakpoints: (
     list-style: none;
     text-decoration: none;
 }
+::selection {
+    background-color: #E80397;
+    color: white;
+}
 html {
     scroll-behavior: smooth;
-    scroll-padding-top: 12vh;
 }
 body {
     font-family: 'Raleway', sans-serif;
-    color: var(--color-text);
     background-color: $background-color;
     color: $color-text;
 }
@@ -50,13 +52,13 @@ body::-webkit-scrollbar {
 }
   
 body::-webkit-scrollbar-track {
-    background: var(--color-background);
+    background: $background-color;
 }
   
 body::-webkit-scrollbar-thumb {
-    background: var(--color-gradient);
+    background: $color-gradient;
     border-radius: 20px;
-    border: 3px solid var(--color-background);
+    border: 3px solid $background-color;
 }
 
 .title {

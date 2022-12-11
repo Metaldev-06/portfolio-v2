@@ -1,6 +1,6 @@
  [
     {
-        "img": "/assets/img/marvelApp.png",
+        "img": "/assets/img/marvelAppOptimized.png",
         "title": "MarvelApp",
         "description":"Es una página web para buscar comics, personajes y más información de Marvel Desarrollada con Angular, PrimeNg y TypeScript.",
         "repositorio": "https://github.com/Metaldev-06/marvelApp",
@@ -51,10 +51,10 @@
       "title": "Portafolio Personal - V1",
       "description":"Es el portfolio que tengo actualmente, está desarrollado en Angular y Sass. Posee un dominio propio",
       "repositorio": "https://github.com/Metaldev-06/portfolio",
-      "demo": "https://www.metaldev.software/"
+      "demo": "https://portfolio-ebon-three-82.vercel.app/"
     },
     {
-      "img": "/assets/img/landingPage.png",
+      "img": "/assets/img/landingPageOptimized.png",
       "title": "Landing Page consultora",
       "description":"Un proyecto de NUCBA que consta de hacer una landing page de un tema a elección. Desarrollado con HTML y CSS",
       "repositorio": "https://github.com/Metaldev-06/proyecto-integrador-NUCBA",
