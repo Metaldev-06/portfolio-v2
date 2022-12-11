@@ -13,6 +13,7 @@ export class SkillsComponent implements OnInit{
   skillsFront!: Skills[]
   skillsBack!: Skills[]
   skillsDatabase!: Skills[]
+  skillLibreria!: Skills[]
 
   perfilGit!: Github
 
@@ -23,10 +24,12 @@ export class SkillsComponent implements OnInit{
         const front = resp.filter( front => front.category === "front" );
         const back = resp.filter( front => front.category === "back" );
         const database = resp.filter( front => front.category === "database" );
+        const libreria = resp.filter( front => front.category === "libreria" );
 
         this.skillsFront = front
         this.skillsBack = back
         this.skillsDatabase = database
+        this.skillLibreria = libreria
       })
 
       this.portfolioService.getGithubPage().subscribe( resp => {

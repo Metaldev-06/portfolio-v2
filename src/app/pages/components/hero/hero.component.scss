@@ -18,6 +18,7 @@
         z-index: -1;
         .scrolling-image {
             background: url('/assets/img/hero-pattern.png');
+            background-position: center;
             height: 9680px;
             width: 9680px;
             animation: slide 80s linear infinite;

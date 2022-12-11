@@ -87,5 +87,11 @@
         "title": "MongoDB",
         "description":"MongoDB es un sistema de base de datos NoSQL, orientado a documentos y de código abierto.",
         "category":"database"
+    },
+    {
+        "img": "/assets/img/rxjs.svg",
+        "title": "RxJs",
+        "description":"Es una librería para programación reactiva usando obvservables que hacen más fácil la creación de código asincrono o basado en callbacks.",
+        "category":"libreria"
     }
 ]
