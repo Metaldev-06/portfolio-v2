@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class HeroComponent {
 
+  verCV() {
+    window.open("/assets/file/CV-Diaz-Fernando.pdf")
+  }
+
+  descargarCV() {
+    
+  }
+
 }

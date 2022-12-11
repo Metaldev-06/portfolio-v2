@@ -4,6 +4,8 @@ import { Observable } from 'rxjs';
 import { Hobbies, Skills } from '../pages/components/cards/cards.component';
 import { Formacion } from '../pages/formacion/formacion.component';
 import { Github } from '../interfaces/github';
+import { Repos } from '../interfaces/repos';
+import { Proyectos } from '../interfaces/proyectos';
 
 @Injectable({
   providedIn: 'root'
@@ -31,7 +33,15 @@ export class PortfolioService {
     return this.http.get<Hobbies[]>(`assets/datos/hobbies.json`)
   }
 
+  getProyectos(): Observable<Proyectos[]> {
+    return this.http.get<Proyectos[]>(`assets/datos/proyectos.json`)
+  }
+
   getGithubPage(): Observable<Github> {
     return this.http.get<Github>(`${this.url}`)
+  }
+
+  getGithubRepos(): Observable<Repos[]> {
+    return this.http.get<Repos[]>(`${this.url}/repos`)
   }
 }

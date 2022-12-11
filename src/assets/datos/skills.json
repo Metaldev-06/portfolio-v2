@@ -45,31 +45,36 @@
         "img": "/assets/img/angular.svg",
         "title": "Angular",
         "description":"Angular es una plataforma de desarrollo de aplicaciones web y móviles multiplataforma que se basa en una arquitectura de componentes.",
-        "category":"front"
+        "category":"front",
+        "principal": true
     },
     {
         "img": "/assets/img/icons8-node-js.svg",
         "title": "NodeJS",
         "description":"NodeJS es un entorno en tiempo de ejecución multiplataforma, de código abierto, para la capa del servidor basado en el lenguaje de programación JavaScript.",
-        "category":"back"
+        "category":"back",
+        "principal": true
     },
     {
         "img": "/assets/img/icons8-express-js.svg",
         "title": "Express",
         "description":"Express es un entorno de trabajo para aplicaciones web para el programario Node.js, de código abierto y con licencia MIT. Se utiliza para desarrollar aplicaciones web y APIs.",
-        "category":"back"
+        "category":"back",
+        "principal": true
     },
     {
         "img": "/assets/img/nestjs-icon.svg",
         "title": "Nest Js",
         "description":"Un marco progresivo de Node.js para crear aplicaciones eficientes, confiables y escalables del lado del servidor .",
-        "category":"back"
+        "category":"back",
+        "principal": true
     },
     {
         "img": "/assets/img/icons8-postgresql.svg",
         "title": "PostgreSQL",
         "description":"PostgreSQL es un sistema gestor de base de datos relacional de código abierto.",
-        "category":"database"
+        "category":"database",
+        "principal": true
     },
     {
         "img": "/assets/img/icons8-logo-de-mysql.svg",

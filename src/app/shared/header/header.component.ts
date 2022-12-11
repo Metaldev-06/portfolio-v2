@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, HostListener } from '@angular/core';
 
 interface MenuItem {
   label: string,
@@ -11,6 +11,8 @@ interface MenuItem {
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent {
+
+  headerFixed!: Boolean;
 
   templateMenu: MenuItem[] = [
     {
@@ -30,5 +32,16 @@ export class HeaderComponent {
       rute: "./proyectos"
     },
   ];
+
+
+  @HostListener('window:scroll',['$event']) activeHeader() {
+
+    if (window.scrollY >= 300) {
+      this.headerFixed = true
+    } else {
+      this.headerFixed = false
+    }
+    console.log(window.scrollY);
+  }
 
 }

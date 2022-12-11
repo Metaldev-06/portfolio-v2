@@ -1,5 +1,8 @@
 <article class="skills__container">
-  <h2 class="title">Skills</h2>
+  <div class="skills__titles">
+    <h2 class="title">Skills</h2>
+    <a routerLink="/skills" class="title title2">Ver más...</a>
+  </div>
 
   <div class="cards__container">
     <app-cards *ngFor="let skill of skills" [item]="skill"></app-cards>

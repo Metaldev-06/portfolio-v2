@@ -1,0 +1,27 @@
+@import "../../../styles.scss";
+.footer {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.footer__redes{
+    font-size: 1.7rem;
+    display: flex;
+    gap: 1.5rem;
+}
+.footer__redes a {
+    transition: transform .3s;
+    
+}
+.footer__redes a:hover {
+    transform: translateY(-5px);
+    background: #FD0048;
+    background: linear-gradient(to bottom, #FD0048 0%, #FF00B4 95%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

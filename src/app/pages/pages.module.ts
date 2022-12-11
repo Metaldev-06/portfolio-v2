@@ -13,6 +13,10 @@ import { CardsComponent } from './components/cards/cards.component';
 import { SkillComponent } from './components/skill/skill.component';
 import { PrimeNGModule } from './prime-ng/prime-ng.module';
 import { HobbieHomeComponent } from './components/hobbie-home/hobbie-home.component';
+import { RepoUrlPipe } from '../pipes/repo-url.pipe';
+import { ProyectosHomeComponent } from './components/proyectos-home/proyectos-home.component';
+import { FormComponent } from './components/form/form.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 
@@ -28,12 +32,17 @@ import { HobbieHomeComponent } from './components/hobbie-home/hobbie-home.compon
     CardsComponent,
     SkillComponent,
     HobbieHomeComponent,
+    RepoUrlPipe,
+    ProyectosHomeComponent,
+    FormComponent
 
   ],
   imports: [
     CommonModule,
     PagesRoutingModule,
-    PrimeNGModule
+    PrimeNGModule,
+    ReactiveFormsModule
+    
     
   ],
 })

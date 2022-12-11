@@ -6,6 +6,7 @@ export interface Skills {
   title:       string;
   description: string;
   category:   string;
+  principal?: boolean;
 }
 
 export interface Hobbies {

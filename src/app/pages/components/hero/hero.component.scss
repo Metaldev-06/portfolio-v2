@@ -3,13 +3,38 @@
 .hero__container {
     width: 100%;
     height: 100vh;
-    background-image: url('/assets/img/hero-pattern.png');
-    background-position: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 2rem;
+    position: relative;
+    overflow: hidden;
+    .scrolling-image-container {
+        height: 100%;
+        height: 100vh;
+        overflow: hidden;
+        position: absolute;
+        z-index: -1;
+        .scrolling-image {
+            background: url('/assets/img/hero-pattern.png');
+            height: 9680px;
+            width: 9680px;
+            animation: slide 80s linear infinite;
+        
+        }
+    }
+
+    @keyframes slide {
+        0% {
+            transform: translate(0);
+        }
+        100% {
+            transform: translate(-3840px, -3840px);
+
+        }
+    }
+    
     .hero__text {
         display: flex;
         flex-direction: column;

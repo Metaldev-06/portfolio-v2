@@ -1,1 +1,18 @@
-<p>proyectos works!</p>
+<section class="proyectos__container">
+  <h1 class="title">Proyectos</h1>
+  <div class="card__container">
+    <div class="card" *ngFor="let repo of repos">
+      <h2>{{ repo.title }}</h2>
+      <img [src]="repo.img" alt="" />
+      <div class="repo__text">
+        <p>{{ repo.description }}</p>
+      </div>
+      <div class="button__container">
+        <a class="repo__btn" [href]="repo.repositorio" target="_blank"
+          >Ver Repositorio</a
+        >
+        <a class="repo__btn" [href]="repo.demo" target="_blank">Ver Proyecto</a>
+      </div>
+    </div>
+  </div>
+</section>

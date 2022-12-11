@@ -1,0 +1,108 @@
+@import "../../../styles.scss";
+.proyectos__container {
+    width: 90%;
+    max-width: 1400px;
+    min-height: 88vh;
+    margin: 20vh auto 0 auto;
+    .card__container {
+        margin-top: 2rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 2.5rem;
+        .card {
+            width: 100%;
+            max-width: 400px;
+            min-width: 200px;
+            min-height: 270px;
+            background-color: $color-card;
+            padding: 1rem;
+            border-radius: 1rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 1.5rem;
+            img {
+                width: 100%;
+                height: 200px;
+                object-fit: cover;
+                border-radius: .5rem;
+            }
+            .repo__text {
+                color: $color-text-secondary;
+            }
+            .button__container {
+                display: flex;
+                gap: 1rem;
+
+                .repo__btn {
+                    /* display: inline-block; */
+                    padding: 0.9em 1.6em;
+                    border: none;
+                    outline: none;
+                    color: $color-text;
+                    font-family: inherit;
+                    font-weight: bold;
+                    font-size: 1rem;
+                    cursor: pointer;
+                    position: relative;
+                    z-index: 0;
+                    border-radius: 12px;
+                }
+                .repo__btn::after {
+                    content: "";
+                    z-index: -1;
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    background: $color-gradient-button;
+                    left: 0;
+                    top: 0;
+                    border-radius: 10px;
+                }
+                .repo__btn::before {
+                    content: "";
+                    background: linear-gradient(
+                       45deg,
+                       #FF0000, #002BFF, #FF00C8, #002BFF,
+                         #FF0000, #002BFF, #FF00C8, #002BFF
+                    );
+                    position: absolute;
+                    top: -2px;
+                    left: -2px;
+                    background-size: 600%;
+                    z-index: -1;
+                    width: calc(100% + 4px);
+                    height: calc(100% + 4px);
+                    filter: blur(8px);
+                    animation: glowing 20s linear infinite;
+                    transition: opacity .3s ease-in-out;
+                    border-radius: 10px;
+                    opacity: 0;
+                }
+                @keyframes glowing {
+                    0% {
+                     background-position: 0 0;
+                    }
+                   
+                    50% {
+                     background-position: 400% 0;
+                    }
+                   
+                    100% {
+                     background-position: 0 0;
+                    }
+                }
+                .repo__btn:hover::before {
+                    opacity: 1;
+                }
+                .repo__btn:active {
+                    font-weight: bold;
+                    transform: scale(0.95);
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,63 @@
+ [
+    {
+        "img": "/assets/img/marvelApp.png",
+        "title": "MarvelApp",
+        "description":"Es una página web para buscar comics, personajes y más información de Marvel Desarrollada con Angular, PrimeNg y TypeScript.",
+        "repositorio": "https://github.com/Metaldev-06/marvelApp",
+        "demo": "https://marvel-app-vert-seven.vercel.app/",
+        "principal": true
+    },
+    {
+      "img": "/assets/img/proyecto1.jpg",
+      "title": "GifTify",
+      "description":"Es una página web para buscar gif, usando la API de Giphy. Desarrollada con Angular, Sass y TypeScript.",
+      "repositorio": "https://github.com/Metaldev-06/buscador-gif-app",
+      "demo": "https://giftify-app.netlify.app/",
+      "principal": true
+    },
+    {
+      "img": "/assets/img/proyecto2.jpg",
+      "title": "Cande Fest",
+      "description":"Es una tarjeta de invitación digital para un XI años de Candela Rojas. Desarrollada con HTML, JavaScript y Sass.",
+      "repositorio": "https://github.com/Metaldev-06/invitacion-cande-15",
+      "demo": "https://candela-fest.netlify.app/"
+    },
+    {
+      "img": "/assets/img/proyecto3.jpg",
+      "title": "Juego del Ahorcado",
+      "description":"Es el clásico juego del ahorcado, este es un proyecto de Oracle Next Education. Desarrollado con HTML, CSS y JavaScript.",
+      "repositorio":"https://github.com/Metaldev-06/Juego-del-ahorcado-Alura-Challenges-Oracle-ONE",
+      "demo": "https://metaldev-06.github.io/Juego-del-ahorcado-Alura-Challenges-Oracle-ONE/",
+      "principal": true
+    },
+    {
+      "img": "/assets/img/proyecto4.jpg",
+      "title": "Desencriptador de Texto",
+      "description":"Es un sencillo encriptador y desencriptador de texto, este es un proyecto de Oracle Next Education. Desarrollado con HTML, CSS y JavaScript.",
+      "repositorio":"https://github.com/Metaldev-06/Encriptador-de-texto-Alura-Challenges-Oracle-ONE",
+      "demo": "https://metaldev-06.github.io/Encriptador-de-texto-Alura-Challenges-Oracle-ONE/",
+      "principal": true
+    },
+    {
+      "img": "/assets/img/landing-nucba.png",
+      "title": "Landing Page Cafetería",
+      "description":"Un proyecto de NUCBA que consta de hacer una landing page de un tema a elección. Desarrollado con HTML y CSS",
+      "repositorio": "https://github.com/Metaldev-06/landing-page-NUCBA",
+      "demo": "https://langing-page-nucba.vercel.app/",
+      "principal": true
+    },
+    {
+      "img": "/assets/img/portfolio-personal.png",
+      "title": "Portafolio Personal - V1",
+      "description":"Es el portfolio que tengo actualmente, está desarrollado en Angular y Sass. Posee un dominio propio",
+      "repositorio": "https://github.com/Metaldev-06/portfolio",
+      "demo": "https://www.metaldev.software/"
+    },
+    {
+      "img": "/assets/img/landingPage.png",
+      "title": "Landing Page consultora",
+      "description":"Un proyecto de NUCBA que consta de hacer una landing page de un tema a elección. Desarrollado con HTML y CSS",
+      "repositorio": "https://github.com/Metaldev-06/proyecto-integrador-NUCBA",
+      "demo": "https://proyecto-integrador-umber.vercel.app/"
+    }
+]

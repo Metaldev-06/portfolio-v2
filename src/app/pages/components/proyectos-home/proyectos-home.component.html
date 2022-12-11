@@ -1,0 +1,33 @@
+<article class="proyectos__container">
+  <div class="proyectos__titles">
+    <h2 class="title">Proyectos</h2>
+    <a routerLink="/proyectos" class="title title2">Ver más...</a>
+  </div>
+  <div class="templateExperiencia" *ngFor="let proyecto of proyectos">
+    <div class="templateExperiencia__img">
+      <img [src]="proyecto.img" alt="Proyectos" id="templateImg" />
+    </div>
+    <div class="templateExperiencia__content">
+      <h3 class="title" id="templateTitle">{{ proyecto.title }}</h3>
+      <p id="templateDescription" class="templateDescription">
+        {{ proyecto.description }}
+      </p>
+      <div class="templateExperiencia__content--buttons">
+        <a
+          class="proyectos__btn"
+          id="templateRepositorio"
+          [href]="proyecto.repositorio"
+          target="_blank"
+          >Repositorio</a
+        >
+        <a
+          class="proyectos__btn"
+          id="templateDemo"
+          [href]="proyecto.demo"
+          target="_blank"
+          >Ver demo</a
+        >
+      </div>
+    </div>
+  </div>
+</article>

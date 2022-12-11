@@ -1,4 +1,8 @@
-<header class="header__container">
+<header
+  class="header__container"
+  (scroll)="activeHeader()"
+  [ngClass]="headerFixed ? 'fixedHeader' : ''"
+>
   <div class="header__contain">
     <p class="header__logo" [routerLink]="['']">Metal<span>Dev</span></p>
 

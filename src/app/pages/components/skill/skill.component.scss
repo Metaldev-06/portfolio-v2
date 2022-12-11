@@ -2,14 +2,28 @@
 
 .skills__container {
     width: 100%;
-    min-height: 70vh;
+    min-height: 20vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 2rem;
-    .title {
-        align-self: flex-start;
+    .skills__titles {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .title {
+            align-self: flex-start;
+        }
+        .title2 {
+            font-size: 1.52em;
+            line-height: 37px;
+        }
+        .title2:hover {
+            opacity: .5;
+            cursor: pointer;
+        }
     }
     .cards__container {
         width: 100%;

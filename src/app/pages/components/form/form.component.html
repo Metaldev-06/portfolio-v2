@@ -1,0 +1,53 @@
+<article class="contactForm" id="contactForm">
+  <h2 class="title">Contacto</h2>
+  <div class="contact__form--container">
+    <div class="contact__form--img">
+      <img src="assets/img/contacto.jpg" alt="" />
+    </div>
+    <div class="contact__form--content">
+      <h3>¿Quieres contactarme?</h3>
+      <p>
+        Complete el siguiente formulario y me pondre en contacto con usted lo
+        antes posible
+      </p>
+
+      <form action="" class="form" [formGroup]="datos" novalidate>
+        <div class="">
+          <input
+            id="emailForm"
+            type="email"
+            placeholder="Correo"
+            formControlName="email"
+          />
+        </div>
+        <div class="">
+          <input
+            id="asuntoForm"
+            type="text"
+            placeholder="Asunto"
+            formControlName="asunto"
+          />
+        </div>
+        <div>
+          <textarea
+            name=""
+            id="mensajeForm"
+            cols="30"
+            rows="10"
+            placeholder="Mensaje"
+            maxlength="300"
+            formControlName="mensaje"
+          ></textarea>
+        </div>
+        <button
+          id="btnEnviar"
+          class="hero__btn"
+          type="submit"
+          (click)="envioCorreo()"
+        >
+          Enviar
+        </button>
+      </form>
+    </div>
+  </div>
+</article>

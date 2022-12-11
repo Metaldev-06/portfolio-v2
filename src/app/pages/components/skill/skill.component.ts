@@ -15,7 +15,8 @@ export class SkillComponent implements OnInit {
 
   ngOnInit(): void {
     this.portfolioService.getSkills().subscribe(skills => {
-      this.skills = skills
+      const item = skills.filter( item => item.principal === true )
+      this.skills = item
     })
   }
 }
