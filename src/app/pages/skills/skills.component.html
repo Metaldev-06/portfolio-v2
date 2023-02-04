@@ -1,5 +1,5 @@
-<section class="skills__container" *ngIf="perfilGit">
-  <article class="github__profile">
+<section class="skills__container">
+  <article class="github__profile" *ngIf="perfilGit">
     <img [src]="perfilGit.avatar_url" alt="" />
     <div class="github__content">
       <h1 class="title">{{ perfilGit.login }}</h1>

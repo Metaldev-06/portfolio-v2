@@ -63,6 +63,13 @@
         "principal": true
     },
     {
+        "img": "/assets/img/strapi-2.svg",
+        "title": "Strapi",
+        "description":"Es un Handdle CMS de código abierto basado en Node. js. Permite crear APIs funcionales en cuestión de minutos.",
+        "category":"back",
+        "principal": false
+    },
+    {
         "img": "/assets/img/nestjs-icon.svg",
         "title": "Nest Js",
         "description":"Un marco progresivo de Node.js para crear aplicaciones eficientes, confiables y escalables del lado del servidor .",

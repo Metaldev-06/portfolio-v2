@@ -8,11 +8,11 @@
         "principal": true
     },
     {
-      "img": "/assets/img/proyecto1.jpg",
-      "title": "GifTify",
-      "description":"Es una página web para buscar gif, usando la API de Giphy. Desarrollada con Angular, Sass y TypeScript.",
-      "repositorio": "https://github.com/Metaldev-06/buscador-gif-app",
-      "demo": "https://giftify-app.netlify.app/",
+      "img": "/assets/img/Captura de pantalla 2023-02-04 - 03.49.54(1).png",
+      "title": "GifTify - V2",
+      "description":"Es una revisión nueva de un proyecto anterior, usando la API de Giphy. Desarrollada con Angular, Sass, TypeScript y Strapi para el Back. Se encuentra en desarollo.",
+      "repositorio": "https://github.com/Metaldev-06/frontent-giftify-app",
+      "demo": "https://frontent-giftify-app.vercel.app/",
       "principal": true
     },
     {
@@ -52,6 +52,14 @@
       "description":"Es el portfolio que tengo actualmente, está desarrollado en Angular y Sass. Posee un dominio propio",
       "repositorio": "https://github.com/Metaldev-06/portfolio",
       "demo": "https://portfolio-ebon-three-82.vercel.app/"
+    },
+    {
+      "img": "/assets/img/proyecto1.jpg",
+      "title": "GifTify - V1",
+      "description":"Es una página web para buscar gif, usando la API de Giphy. Desarrollada con Angular, Sass y TypeScript.",
+      "repositorio": "https://github.com/Metaldev-06/buscador-gif-app",
+      "demo": "https://giftify-app.netlify.app/",
+      "principal": false
     },
     {
       "img": "/assets/img/landingPageOptimized.png",
