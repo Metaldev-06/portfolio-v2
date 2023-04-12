@@ -8,40 +8,39 @@ import { Repos } from '../interfaces/repos';
 import { Proyectos } from '../interfaces/proyectos';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class PortfolioService {
+  language: string = 'es';
+  url: string = 'https://api.github.com/users/Metaldev-06';
 
-  language: string = "es"
-  url:string = "https://api.github.com/users/Metaldev-06"
-
-  constructor( private http: HttpClient) { }
+  constructor(private http: HttpClient) {}
 
   translate(): Observable<any> {
-    return this.http.get<any>(`assets/translate/translate.json`)
+    return this.http.get<any>(`assets/translate/translate.json`);
   }
 
   getSkills(): Observable<Skills[]> {
-    return this.http.get<Skills[]>(`assets/datos/skills.json`)
+    return this.http.get<Skills[]>(`assets/datos/skills.json`);
   }
 
   getFormacion(): Observable<Formacion[]> {
-    return this.http.get<Formacion[]>(`assets/datos/formacion.json`)
+    return this.http.get<Formacion[]>(`assets/datos/formacion.json`);
   }
 
   getHobbies(): Observable<Hobbies[]> {
-    return this.http.get<Hobbies[]>(`assets/datos/hobbies.json`)
+    return this.http.get<Hobbies[]>(`assets/datos/hobbies.json`);
   }
 
   getProyectos(): Observable<Proyectos[]> {
-    return this.http.get<Proyectos[]>(`assets/datos/proyectos.json`)
+    return this.http.get<Proyectos[]>(`assets/datos/proyectos.json`);
   }
 
   getGithubPage(): Observable<Github> {
-    return this.http.get<Github>(`${this.url}`)
+    return this.http.get<Github>(`${this.url}`);
   }
 
   getGithubRepos(): Observable<Repos[]> {
-    return this.http.get<Repos[]>(`${this.url}/repos`)
+    return this.http.get<Repos[]>(`${this.url}/repos`);
   }
 }
